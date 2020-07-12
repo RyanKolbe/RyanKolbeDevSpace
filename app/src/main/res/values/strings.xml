@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ryan Kolbe Dev Space</string>
+    <string name="menu_title">Ryan Kolbe \nDev Space</string>
+    <string name="tv_visitor">Visitor\'s name:</string>
+    <string name="bt_next_menu">Next</string>
+    <string name="et_visitor_name">Please enter your name</string>
+    <string name="btn_menu_calculator">Calculation</string>
+    <string name="btn_menu_home">Home</string>
+    <string name="btn_menu_profile">My Dev Profile</string>
+    <string name="btn_menu_about">About Me</string>
+    <string name="btn_calculator_back_menu">Back</string>
+    <string name="tv_calculator_title">Surface Area of a Rectangular Tank</string>
+    <string name="et_height">Enter height</string>
+    <string name="et_width">Enter width</string>
+    <string name="et_length">Enter Length</string>
+    <string name="btn_run_formula">Surface Area of a Rectangular Tank</string>
+    <string name="tv_calculation_result">Result will display here</string>
+    <string name="btn_menu_back">Back</string>
+    <string name="btn_profile_back">Back</string>
+    <string name="img_profile_picture">Ryan Kolbe</string>
+    <string name="tv_profile_title">My Details</string>
+    <string name="tv_user_icon">Ryan Kolbe</string>
+    <string name="tv_contact">012 345 6789</string>
+    <string name="tb_email">216189985@mycput.ac.za</string>
+    <string name="tv_twitter">ryan.kolbe1</string>
+    <string name="tv_linkedin">www.linkedin.com/in/ryan-kolbe</string>
+</resources>

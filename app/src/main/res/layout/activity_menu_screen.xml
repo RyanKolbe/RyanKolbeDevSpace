@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuScreen">
+
+    <TextView
+        android:id="@+id/menu_screen_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMenuCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/btn_menu_calculator"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_screen_intro" />
+
+    <Button
+        android:id="@+id/btnMenuHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/btn_menu_home"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/btnMenuCalculator"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_screen_intro" />
+
+    <Button
+        android:id="@+id/btnMenuProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:text="@string/btn_menu_profile"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnMenuCalculator"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="@+id/btnMenuHome"
+        app:layout_constraintTop_toBottomOf="@+id/menu_screen_title" />
+
+    <Button
+        android:id="@+id/btnMenuAbout"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/btn_menu_about"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnMenuProfile"
+        app:layout_constraintStart_toStartOf="@+id/btnMenuProfile"
+        app:layout_constraintTop_toBottomOf="@+id/btnMenuProfile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

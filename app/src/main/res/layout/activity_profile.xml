@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <Button
+        android:id="@+id/btn_profile_back"
+        android:layout_width="86dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_profile_back"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_profile_title"
+        android:layout_width="198dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="100dp"
+        android:clickable="false"
+        android:text="@string/tv_profile_title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:gravity="center"
+        android:text="@string/tv_user_icon"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_profile_title"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/tv_profile_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profile_title" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_baseline_phone_android_24"
+        android:gravity="center"
+        android:text="@string/tv_contact"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_user"
+        app:layout_constraintStart_toStartOf="@+id/tv_user"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:gravity="center"
+        android:text="@string/tb_email"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_contact"
+        app:layout_constraintStart_toStartOf="@+id/tv_contact"
+        app:layout_constraintTop_toBottomOf="@+id/tv_contact" />
+
+    <TextView
+        android:id="@+id/tv_twitter"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/twitter"
+        android:gravity="center"
+        android:text="@string/tv_twitter"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_email"
+        app:layout_constraintStart_toStartOf="@+id/tv_email"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email" />
+
+    <TextView
+        android:id="@+id/tv_linkedin"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/linkedin"
+        android:gravity="center"
+        android:text="@string/tv_linkedin"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_twitter"
+        app:layout_constraintStart_toStartOf="@+id/tv_twitter"
+        app:layout_constraintTop_toBottomOf="@+id/tv_twitter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
