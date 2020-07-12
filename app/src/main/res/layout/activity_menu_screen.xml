@@ -56,23 +56,24 @@
         android:id="@+id/btnMenuProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="252dp"
         android:text="@string/btn_menu_profile"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/btnMenuCalculator"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/btnMenuHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu_screen_title" />
 
     <Button
         android:id="@+id/btnMenuAbout"
         android:layout_width="230dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:text="@string/btn_menu_about"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/btnMenuProfile"
-        app:layout_constraintStart_toStartOf="@+id/btnMenuProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnMenuProfile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

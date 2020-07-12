@@ -21,13 +21,13 @@
 
         <TextView
             android:id="@+id/tv_scrollview"
-            android:layout_width="350dp"
-            android:layout_height="400dp"
+            android:layout_width="333dp"
+            android:layout_height="402dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginStart="28dp"
-            android:layout_marginTop="116dp"
+            android:layout_marginTop="87dp"
             android:drawableEnd="@drawable/profile_picture"
             android:fontFamily="sans-serif"
             android:inputType="textMultiLine"
