@@ -2,7 +2,6 @@ package com.ryankolbe.ryankolbedevspace;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,7 +24,7 @@ public class Calculator extends AppCompatActivity {
         etWidth = findViewById(R.id.et_width);
         etLength = findViewById(R.id.et_length);
         tvResult = findViewById(R.id.tv_calculation_result);
-        btnCalculatorBack = findViewById(R.id.btn_calculator_back_menu);
+        btnCalculatorBack = findViewById(R.id.btn_calculator_back);
         btnRunFormula = findViewById(R.id.btn_run_formula);
 
         btnRunFormula.setOnClickListener(new View.OnClickListener() {

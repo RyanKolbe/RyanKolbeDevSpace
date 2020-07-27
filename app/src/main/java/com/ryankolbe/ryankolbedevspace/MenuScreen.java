@@ -17,10 +17,10 @@ public class MenuScreen extends AppCompatActivity implements View.OnClickListene
 
         String message = getIntent().getStringExtra("EXTRA");
         TextView tvMenuIntro = findViewById(R.id.menu_screen_intro);
-        Button btnMenuHome = findViewById(R.id.btnMenuHome);
-        Button btnMenuAbout = findViewById(R.id.btnMenuAbout);
-        Button btnMenuCalculator = findViewById(R.id.btnMenuCalculator);
-        Button btnMenuProfile = findViewById(R.id.btnMenuProfile);
+        Button btnMenuHome = findViewById(R.id.btn_menu_home);
+        Button btnMenuAbout = findViewById(R.id.btn_menu_about);
+        Button btnMenuCalculator = findViewById(R.id.btn_menu_calculator);
+        Button btnMenuProfile = findViewById(R.id.btn_menu_profile);
 
         tvMenuIntro.setText(String.format("Dear %s \n Welcome to my code space", message));
         btnMenuHome.setOnClickListener(this);
@@ -32,16 +32,16 @@ public class MenuScreen extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.btnMenuHome:
+            case R.id.btn_menu_home:
                 menuIntent(MainActivity.class);
                 break;
-            case R.id.btnMenuAbout:
+            case R.id.btn_menu_about:
                 menuIntent(AboutMe.class);
                 break;
-            case R.id.btnMenuCalculator:
+            case R.id.btn_menu_calculator:
                 menuIntent(Calculator.class);
                 break;
-            case R.id.btnMenuProfile:
+            case R.id.btn_menu_profile:
                 menuIntent(Profile.class);
                 break;
             default:
